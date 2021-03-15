@@ -2,6 +2,8 @@
 Profile ID,Name,Site,Hotkey,,,
 c1,Episodic,typhongroup.net/np/data/data2.asp,Option + Dead,,,
 c2,Comprehensive,typhongroup.net/np/data/data2.asp,Option + Ç,,,
+c3,Episodic - Urban,typhongroup.net/np/data/data2.asp,,,,
+c4,Comprehensive - Urban,typhongroup.net/np/data/data2.asp,,,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
 r1,0,"^Time spent with patient$","20","",0,c1
@@ -57,6 +59,71 @@ r50,3,"^Social Contact/Isolation$","1","",0,c1
 r51,3,"^Rural Visit$","1","",0,c2
 r52,3,"^Underserved Area$","1","",0,c2
 r53,3,"^Done Focused Breast and Axillae Assessment$","1","",0,c2
+r54,0,"^Time spent with patient$","20","",0,c3
+r55,0,"^Consult time with preceptor$","5","",0,c3
+r56,0,"^Chief complaint$","Wellness","",0,c3
+r57,0,"^CPT 1$","99213","",0,c3
+r58,0,"^History of Present Illness \(HPI\)$","see below","",0,c3
+r59,0,"^Medications prescribed at this visit$","see below","",0,c3
+r60,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c3
+r61,3,"^Rural Visit$","0","",0,c3
+r62,3,"^Underserved Area$","0","",0,c3
+r63,3,"^Emotional$","1","",0,c3
+r64,3,"^Grief$","1","",0,c3
+r65,3,"^Growth and Development$","1","",0,c3
+r66,3,"^Interpersonal Relationships$","1","",0,c3
+r67,3,"^Nutrition/Exercise$","1","",0,c3
+r68,3,"^Prevention$","1","",0,c3
+r69,3,"^Role Change$","1","",0,c3
+r70,3,"^Safety$","1","",0,c3
+r71,3,"^Sexuality$","1","",0,c3
+r72,3,"^Social Contact/Isolation$","1","",0,c3
+r73,3,"^Done Focused Abdominal Assessment$","1","",0,c3
+r74,3,"^Done Focused Breast and Axillae Assessment$","1","",0,c3
+r75,3,"^Done Focused Cardiovascular Assessment$","1","",0,c3
+r76,3,"^Done Focused Head and Neck Assessment$","1","",0,c3
+r77,3,"^Done Focused Musculoskeletal Assessment$","1","",0,c3
+r78,3,"^Done Focused Neurological Assessment$","1","",0,c3
+r79,3,"^Done Focused Peripheral Vascular Assessment$","1","",0,c3
+r80,3,"^Done Focused Psychological Assessment$","1","",0,c3
+r81,3,"^Done Focused Skin Assessment$","1","",0,c3
+r82,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c3
+r83,2,"^Type of decision making$","""1""","",0,c3
+r84,2,"^Type of H and P$","""1""","",0,c3
+r85,2,"^Patient's primary language$","""8""","",0,c3
+r86,2,"^Type of clinical setting$","""6""","",0,c3
+r87,0,"^Time spent with patient$","20","",0,c4
+r88,0,"^Consult time with preceptor$","5","",0,c4
+r89,0,"^Chief complaint$","Wellness","",0,c4
+r90,0,"^CPT 1$","99213","",0,c4
+r91,0,"^History of Present Illness \(HPI\)$","see below","",0,c4
+r92,0,"^Medications prescribed at this visit$","see below","",0,c4
+r93,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c4
+r94,3,"^Rural Visit$","0","",0,c4
+r95,3,"^Underserved Area$","0","",0,c4
+r96,3,"^Emotional$","1","",0,c4
+r97,3,"^Grief$","1","",0,c4
+r98,3,"^Growth and Development$","1","",0,c4
+r99,3,"^Interpersonal Relationships$","1","",0,c4
+r100,3,"^Nutrition/Exercise$","1","",0,c4
+r101,3,"^Role Change$","1","",0,c4
+r102,3,"^Safety$","1","",0,c4
+r103,3,"^Sexuality$","1","",0,c4
+r104,3,"^Social Contact/Isolation$","1","",0,c4
+r105,3,"^Done Focused Abdominal Assessment$","1","",0,c4
+r106,3,"^Done Focused Breast and Axillae Assessment$","1","",0,c4
+r107,3,"^Done Focused Cardiovascular Assessment$","1","",0,c4
+r108,3,"^Done Focused Head and Neck Assessment$","1","",0,c4
+r109,3,"^Done Focused Musculoskeletal Assessment$","1","",0,c4
+r110,3,"^Done Focused Neurological Assessment$","1","",0,c4
+r111,3,"^Done Focused Peripheral Vascular Assessment$","1","",0,c4
+r112,3,"^Done Focused Psychological Assessment$","1","",0,c4
+r113,3,"^Done Focused Skin Assessment$","1","",0,c4
+r114,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c4
+r115,2,"^Type of decision making$","""1""","",0,c4
+r116,2,"^Type of H and P$","""3""","",0,c4
+r117,2,"^Patient's primary language$","""8""","",0,c4
+r118,2,"^Type of clinical setting$","""6""","",0,c4
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
@@ -74,4 +141,4 @@ debug,0,,,,,
 mask,1,,,,,
 scale,1,,,,,
 menu,1,,,,,
-autoimport,0,,,,,
+autoimport,0,https://raw.githubusercontent.com/joshle1991/Typhon/main/Autofill,,,,
