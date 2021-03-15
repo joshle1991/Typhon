@@ -1,0 +1,77 @@
+### AUTOFILL PROFILES ###,,,,,,
+Profile ID,Name,Site,Hotkey,,,
+c1,Episodic,typhongroup.net/np/data/data2.asp,Option + Dead,,,
+c2,Comprehensive,typhongroup.net/np/data/data2.asp,Option + Ç,,,
+### AUTOFILL RULES ###,,,,,,
+Rule ID,Type,Name,Value,Site,Mode,Profile
+r1,0,"^Time spent with patient$","20","",0,c1
+r2,0,"^Consult time with preceptor$","5","",0,c1
+r3,0,"^CPT 1$","99213","",0,c1
+r4,0,"^History of Present Illness \(HPI\)$","see below","",0,c1
+r5,0,"^Medications prescribed at this visit$","see below","",0,c1
+r6,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c1
+r7,3,"^Done Focused Abdominal Assessment$","1","",0,c1
+r8,3,"^Done Focused Cardiovascular Assessment$","1","",0,c1
+r9,3,"^Done Focused Head and Neck Assessment$","1","",0,c1
+r10,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c1
+r11,2,"^Type of decision making$","""1""","",0,c1
+r12,2,"^Type of H and P$","""1""","",0,c1
+r13,2,"^Patient's primary language$","""8""","",0,c1
+r14,2,"^Type of clinical setting$","""7""","",0,c1
+r15,0,"^Time spent with patient$","20","",0,c2
+r16,0,"^Consult time with preceptor$","5","",0,c2
+r17,0,"^Chief complaint$","Wellness","",0,c2
+r18,0,"^CPT 1$","99213","",0,c2
+r19,0,"^History of Present Illness \(HPI\)$","see below","",0,c2
+r20,0,"^Medications prescribed at this visit$","see below","",0,c2
+r21,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c2
+r22,3,"^Emotional$","1","",0,c2
+r23,3,"^Grief$","1","",0,c2
+r24,3,"^Growth and Development$","1","",0,c2
+r25,3,"^Interpersonal Relationships$","1","",0,c2
+r26,3,"^Nutrition/Exercise$","1","",0,c2
+r27,3,"^Role Change$","1","",0,c2
+r28,3,"^Safety$","1","",0,c2
+r29,3,"^Sexuality$","1","",0,c2
+r30,3,"^Social Contact/Isolation$","1","",0,c2
+r31,3,"^Done Focused Abdominal Assessment$","1","",0,c2
+r32,3,"^Done Focused Cardiovascular Assessment$","1","",0,c2
+r33,3,"^Done Focused Head and Neck Assessment$","1","",0,c2
+r34,3,"^Done Focused Musculoskeletal Assessment$","1","",0,c2
+r35,3,"^Done Focused Neurological Assessment$","1","",0,c2
+r36,3,"^Done Focused Peripheral Vascular Assessment$","1","",0,c2
+r37,3,"^Done Focused Psychological Assessment$","1","",0,c2
+r38,3,"^Done Focused Skin Assessment$","1","",0,c2
+r39,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c2
+r40,2,"^Type of decision making$","""1""","",0,c2
+r41,2,"^Type of H and P$","""3""","",0,c2
+r42,2,"^Patient's primary language$","""8""","",0,c2
+r43,2,"^Type of clinical setting$","""7""","",0,c2
+r44,3,"^Rural Visit$","1","",0,c1
+r45,3,"^Underserved Area$","1","",0,c1
+r46,3,"^Growth and Development$","1","",0,c1
+r47,3,"^Nutrition/Exercise$","1","",0,c1
+r48,3,"^Prevention$","1","",0,c1
+r49,3,"^Safety$","1","",0,c1
+r50,3,"^Social Contact/Isolation$","1","",0,c1
+r51,3,"^Rural Visit$","1","",0,c2
+r52,3,"^Underserved Area$","1","",0,c2
+r53,3,"^Done Focused Breast and Axillae Assessment$","1","",0,c2
+### AUTOFILL OPTIONS ###,,,,,,
+advanced,"[]",,,,,
+exceptions,"[]",,,,,
+textclips,"[]",,,,,
+variables,"[]",,,,,
+backup,0,30,,,,
+manual,1,,,,,
+delay,0,1,,,,
+labelmatch,0,,,,,
+overwrite,0,,,,,
+vars,1,,,,,
+sound,1,,,,,
+voice,1,6,,,,
+debug,0,,,,,
+mask,1,,,,,
+scale,1,,,,,
+menu,1,,,,,
+autoimport,0,,,,,
