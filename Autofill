@@ -1,129 +1,189 @@
 ### AUTOFILL PROFILES ###,,,,,,
 Profile ID,Name,Site,Hotkey,,,
-c1,Episodic,typhongroup.net/,Option + Dead,,,
-c2,Comprehensive,typhongroup.net/,Option + Ç,,,
-c3,Episodic - Urban,typhongroup.net/,,,,
-c4,Comprehensive - Urban,typhongroup.net/,,,,
+c1,Episodic,,Option + Dead,,,
+c2,Comprehensive,,Option + Ç,,,
+c6,Comprehensive - Urban,,,,,
+c5,test,typhongroup.net/np/data/data2.asp,,,,
+c3,Episodic - Urban,,,,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
-r1,0,"^Time spent with patient$","20","",0,c1
-r2,0,"^Consult time with preceptor$","5","",0,c1
-r3,0,"^CPT 1$","99213","",0,c1
-r4,0,"^History of Present Illness \(HPI\)$","see below","",0,c1
-r5,0,"^Medications prescribed at this visit$","see below","",0,c1
-r6,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c1
-r7,3,"^Done Focused Abdominal Assessment$","1","",0,c1
-r8,3,"^Done Focused Cardiovascular Assessment$","1","",0,c1
-r9,3,"^Done Focused Head and Neck Assessment$","1","",0,c1
-r10,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c1
-r11,2,"^Type of decision making$","""1""","",0,c1
-r12,2,"^Type of H and P$","""1""","",0,c1
-r13,2,"^Patient's primary language$","""8""","",0,c1
-r14,2,"^Type of clinical setting$","""7""","",0,c1
-r15,0,"^Time spent with patient$","20","",0,c2
-r16,0,"^Consult time with preceptor$","5","",0,c2
-r17,0,"^Chief complaint$","Wellness","",0,c2
-r18,0,"^CPT 1$","99213","",0,c2
-r19,0,"^History of Present Illness \(HPI\)$","see below","",0,c2
-r20,0,"^Medications prescribed at this visit$","see below","",0,c2
-r21,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c2
-r22,3,"^Emotional$","1","",0,c2
-r23,3,"^Grief$","1","",0,c2
-r24,3,"^Growth and Development$","1","",0,c2
-r25,3,"^Interpersonal Relationships$","1","",0,c2
-r26,3,"^Nutrition/Exercise$","1","",0,c2
-r27,3,"^Role Change$","1","",0,c2
-r28,3,"^Safety$","1","",0,c2
-r29,3,"^Sexuality$","1","",0,c2
-r30,3,"^Social Contact/Isolation$","1","",0,c2
-r31,3,"^Done Focused Abdominal Assessment$","1","",0,c2
-r32,3,"^Done Focused Cardiovascular Assessment$","1","",0,c2
-r33,3,"^Done Focused Head and Neck Assessment$","1","",0,c2
-r34,3,"^Done Focused Musculoskeletal Assessment$","1","",0,c2
-r35,3,"^Done Focused Neurological Assessment$","1","",0,c2
-r36,3,"^Done Focused Peripheral Vascular Assessment$","1","",0,c2
-r37,3,"^Done Focused Psychological Assessment$","1","",0,c2
-r38,3,"^Done Focused Skin Assessment$","1","",0,c2
-r39,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c2
-r40,2,"^Type of decision making$","""1""","",0,c2
-r41,2,"^Type of H and P$","""3""","",0,c2
-r42,2,"^Patient's primary language$","""8""","",0,c2
-r43,2,"^Type of clinical setting$","""7""","",0,c2
-r44,3,"^Rural Visit$","1","",0,c1
-r45,3,"^Underserved Area$","1","",0,c1
-r46,3,"^Growth and Development$","1","",0,c1
-r47,3,"^Nutrition/Exercise$","1","",0,c1
-r48,3,"^Prevention$","1","",0,c1
-r49,3,"^Safety$","1","",0,c1
-r50,3,"^Social Contact/Isolation$","1","",0,c1
-r51,3,"^Rural Visit$","1","",0,c2
-r52,3,"^Underserved Area$","1","",0,c2
-r53,3,"^Done Focused Breast and Axillae Assessment$","1","",0,c2
-r54,0,"^Time spent with patient$","20","",0,c3
-r55,0,"^Consult time with preceptor$","5","",0,c3
-r56,0,"^Chief complaint$","Wellness","",0,c3
-r57,0,"^CPT 1$","99213","",0,c3
-r58,0,"^History of Present Illness \(HPI\)$","see below","",0,c3
-r59,0,"^Medications prescribed at this visit$","see below","",0,c3
-r60,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c3
-r61,3,"^Rural Visit$","0","",0,c3
-r62,3,"^Underserved Area$","0","",0,c3
-r63,3,"^Emotional$","1","",0,c3
-r64,3,"^Grief$","1","",0,c3
-r65,3,"^Growth and Development$","1","",0,c3
-r66,3,"^Interpersonal Relationships$","1","",0,c3
-r67,3,"^Nutrition/Exercise$","1","",0,c3
-r68,3,"^Prevention$","1","",0,c3
-r69,3,"^Role Change$","1","",0,c3
-r70,3,"^Safety$","1","",0,c3
-r71,3,"^Sexuality$","1","",0,c3
-r72,3,"^Social Contact/Isolation$","1","",0,c3
-r73,3,"^Done Focused Abdominal Assessment$","1","",0,c3
-r74,3,"^Done Focused Breast and Axillae Assessment$","1","",0,c3
-r75,3,"^Done Focused Cardiovascular Assessment$","1","",0,c3
-r76,3,"^Done Focused Head and Neck Assessment$","1","",0,c3
-r77,3,"^Done Focused Musculoskeletal Assessment$","1","",0,c3
-r78,3,"^Done Focused Neurological Assessment$","1","",0,c3
-r79,3,"^Done Focused Peripheral Vascular Assessment$","1","",0,c3
-r80,3,"^Done Focused Psychological Assessment$","1","",0,c3
-r81,3,"^Done Focused Skin Assessment$","1","",0,c3
-r82,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c3
-r83,2,"^Type of decision making$","""1""","",0,c3
-r84,2,"^Type of H and P$","""1""","",0,c3
-r85,2,"^Patient's primary language$","""8""","",0,c3
-r86,2,"^Type of clinical setting$","""6""","",0,c3
-r87,0,"^Time spent with patient$","20","",0,c4
-r88,0,"^Consult time with preceptor$","5","",0,c4
-r89,0,"^Chief complaint$","Wellness","",0,c4
-r90,0,"^CPT 1$","99213","",0,c4
-r91,0,"^History of Present Illness \(HPI\)$","see below","",0,c4
-r92,0,"^Medications prescribed at this visit$","see below","",0,c4
-r93,0,"^When to RTC\.  \(Part of Plan\)$","see below","",0,c4
-r94,3,"^Rural Visit$","0","",0,c4
-r95,3,"^Underserved Area$","0","",0,c4
-r96,3,"^Emotional$","1","",0,c4
-r97,3,"^Grief$","1","",0,c4
-r98,3,"^Growth and Development$","1","",0,c4
-r99,3,"^Interpersonal Relationships$","1","",0,c4
-r100,3,"^Nutrition/Exercise$","1","",0,c4
-r101,3,"^Role Change$","1","",0,c4
-r102,3,"^Safety$","1","",0,c4
-r103,3,"^Sexuality$","1","",0,c4
-r104,3,"^Social Contact/Isolation$","1","",0,c4
-r105,3,"^Done Focused Abdominal Assessment$","1","",0,c4
-r106,3,"^Done Focused Breast and Axillae Assessment$","1","",0,c4
-r107,3,"^Done Focused Cardiovascular Assessment$","1","",0,c4
-r108,3,"^Done Focused Head and Neck Assessment$","1","",0,c4
-r109,3,"^Done Focused Musculoskeletal Assessment$","1","",0,c4
-r110,3,"^Done Focused Neurological Assessment$","1","",0,c4
-r111,3,"^Done Focused Peripheral Vascular Assessment$","1","",0,c4
-r112,3,"^Done Focused Psychological Assessment$","1","",0,c4
-r113,3,"^Done Focused Skin Assessment$","1","",0,c4
-r114,3,"^Done Focused Thorax and Lung Assessment$","1","",0,c4
-r115,2,"^Type of decision making$","""1""","",0,c4
-r116,2,"^Type of H and P$","""3""","",0,c4
-r117,2,"^Patient's primary language$","""8""","",0,c4
-r118,2,"^Type of clinical setting$","""6""","",0,c4
+r1,0,"^Time spent with patient$","20","typhongroup.net/",0,c1
+r2,0,"^Consult time with preceptor$","5","typhongroup.net/",0,c1
+r3,0,"^CPT 1$","99213","typhongroup.net/",0,c1
+r4,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/",0,c1
+r5,0,"^Medications prescribed at this visit$","see below","typhongroup.net/",0,c1
+r6,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/",0,c1
+r7,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/",0,c1
+r8,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/",0,c1
+r9,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/",0,c1
+r10,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/",0,c1
+r11,2,"^Type of decision making$","""1""","typhongroup.net/",0,c1
+r12,2,"^Type of H and P$","""1""","typhongroup.net/",0,c1
+r13,2,"^Patient's primary language$","""8""","typhongroup.net/",0,c1
+r14,2,"^Type of clinical setting$","""7""","typhongroup.net/",0,c1
+r44,3,"^Rural Visit$","1","typhongroup.net/",0,c1
+r45,3,"^Underserved Area$","1","typhongroup.net/",0,c1
+r46,3,"^Growth and Development$","1","typhongroup.net/",0,c1
+r47,3,"^Nutrition/Exercise$","1","typhongroup.net/",0,c1
+r48,3,"^Prevention$","1","typhongroup.net/",0,c1
+r49,3,"^Safety$","1","typhongroup.net/",0,c1
+r50,3,"^Social Contact/Isolation$","1","typhongroup.net/",0,c1
+r54,0,"^Time spent with patient$","20","typhongroup.net/",0,c3
+r55,0,"^Consult time with preceptor$","5","typhongroup.net/",0,c3
+r56,0,"^Chief complaint$","Wellness","typhongroup.net/",0,c3
+r57,0,"^CPT 1$","99213","typhongroup.net/",0,c3
+r58,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/",0,c3
+r59,0,"^Medications prescribed at this visit$","see below","typhongroup.net/",0,c3
+r60,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/",0,c3
+r61,3,"^Rural Visit$","0","typhongroup.net/",0,c3
+r62,3,"^Underserved Area$","0","typhongroup.net/",0,c3
+r63,3,"^Emotional$","1","typhongroup.net/",0,c3
+r64,3,"^Grief$","1","typhongroup.net/",0,c3
+r65,3,"^Growth and Development$","1","typhongroup.net/",0,c3
+r66,3,"^Interpersonal Relationships$","1","typhongroup.net/",0,c3
+r67,3,"^Nutrition/Exercise$","1","typhongroup.net/",0,c3
+r68,3,"^Prevention$","1","typhongroup.net/",0,c3
+r69,3,"^Role Change$","1","typhongroup.net/",0,c3
+r70,3,"^Safety$","1","typhongroup.net/",0,c3
+r71,3,"^Sexuality$","1","typhongroup.net/",0,c3
+r72,3,"^Social Contact/Isolation$","1","typhongroup.net/",0,c3
+r73,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/",0,c3
+r74,3,"^Done Focused Breast and Axillae Assessment$","1","typhongroup.net/",0,c3
+r75,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/",0,c3
+r76,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/",0,c3
+r77,3,"^Done Focused Musculoskeletal Assessment$","1","typhongroup.net/",0,c3
+r78,3,"^Done Focused Neurological Assessment$","1","typhongroup.net/",0,c3
+r79,3,"^Done Focused Peripheral Vascular Assessment$","1","typhongroup.net/",0,c3
+r80,3,"^Done Focused Psychological Assessment$","1","typhongroup.net/",0,c3
+r81,3,"^Done Focused Skin Assessment$","1","typhongroup.net/",0,c3
+r82,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/",0,c3
+r83,2,"^Type of decision making$","""1""","typhongroup.net/",0,c3
+r84,2,"^Type of H and P$","""1""","typhongroup.net/",0,c3
+r85,2,"^Patient's primary language$","""8""","typhongroup.net/",0,c3
+r86,2,"^Type of clinical setting$","""6""","typhongroup.net/",0,c3
+r179,0,"^Time spent with patient$","20","typhongroup.net/np/data/data2.asp",0,c1
+r180,0,"^Consult time with preceptor$","5","typhongroup.net/np/data/data2.asp",0,c1
+r181,0,"^Chief complaint$","Wellness","typhongroup.net/np/data/data2.asp",0,c1
+r182,0,"^CPT 1$","99213","typhongroup.net/np/data/data2.asp",0,c1
+r183,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/np/data/data2.asp",0,c1
+r184,0,"^Medications prescribed at this visit$","see below","typhongroup.net/np/data/data2.asp",0,c1
+r185,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/np/data/data2.asp",0,c1
+r186,3,"^Emotional$","1","typhongroup.net/np/data/data2.asp",0,c1
+r187,3,"^Grief$","1","typhongroup.net/np/data/data2.asp",0,c1
+r188,3,"^Growth and Development$","1","typhongroup.net/np/data/data2.asp",0,c1
+r189,3,"^Interpersonal Relationships$","1","typhongroup.net/np/data/data2.asp",0,c1
+r190,3,"^Nutrition/Exercise$","1","typhongroup.net/np/data/data2.asp",0,c1
+r191,3,"^Prevention$","1","typhongroup.net/np/data/data2.asp",0,c1
+r192,3,"^Role Change$","1","typhongroup.net/np/data/data2.asp",0,c1
+r193,3,"^Safety$","1","typhongroup.net/np/data/data2.asp",0,c1
+r194,3,"^Sexuality$","1","typhongroup.net/np/data/data2.asp",0,c1
+r195,3,"^Social Contact/Isolation$","1","typhongroup.net/np/data/data2.asp",0,c1
+r196,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c1
+r197,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c1
+r198,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/np/data/data2.asp",0,c1
+r199,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/np/data/data2.asp",0,c1
+r200,2,"^Type of decision making$","""1""","typhongroup.net/np/data/data2.asp",0,c1
+r201,2,"^Type of H and P$","""1""","typhongroup.net/np/data/data2.asp",0,c1
+r202,2,"^Patient's primary language$","""8""","typhongroup.net/np/data/data2.asp",0,c1
+r203,2,"^Type of clinical setting$","""7""","typhongroup.net/np/data/data2.asp",0,c1
+r204,0,"^Time spent with patient$","20","typhongroup.net/np/data/data2.asp",0,c3
+r205,0,"^Consult time with preceptor$","5","typhongroup.net/np/data/data2.asp",0,c3
+r206,0,"^Chief complaint$","Wellness","typhongroup.net/np/data/data2.asp",0,c3
+r207,0,"^CPT 1$","99213","typhongroup.net/np/data/data2.asp",0,c3
+r208,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/np/data/data2.asp",0,c3
+r209,0,"^Medications prescribed at this visit$","see below","typhongroup.net/np/data/data2.asp",0,c3
+r210,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/np/data/data2.asp",0,c3
+r211,3,"^Rural Visit$","0","typhongroup.net/np/data/data2.asp",0,c3
+r212,3,"^Underserved Area$","0","typhongroup.net/np/data/data2.asp",0,c3
+r213,3,"^Emotional$","1","typhongroup.net/np/data/data2.asp",0,c3
+r214,3,"^Grief$","1","typhongroup.net/np/data/data2.asp",0,c3
+r215,3,"^Growth and Development$","1","typhongroup.net/np/data/data2.asp",0,c3
+r216,3,"^Interpersonal Relationships$","1","typhongroup.net/np/data/data2.asp",0,c3
+r217,3,"^Nutrition/Exercise$","1","typhongroup.net/np/data/data2.asp",0,c3
+r218,3,"^Prevention$","1","typhongroup.net/np/data/data2.asp",0,c3
+r219,3,"^Role Change$","1","typhongroup.net/np/data/data2.asp",0,c3
+r220,3,"^Safety$","1","typhongroup.net/np/data/data2.asp",0,c3
+r221,3,"^Sexuality$","1","typhongroup.net/np/data/data2.asp",0,c3
+r222,3,"^Social Contact/Isolation$","1","typhongroup.net/np/data/data2.asp",0,c3
+r223,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c3
+r224,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c3
+r225,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/np/data/data2.asp",0,c3
+r226,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/np/data/data2.asp",0,c3
+r227,2,"^Type of decision making$","""1""","typhongroup.net/np/data/data2.asp",0,c3
+r228,2,"^Type of H and P$","""1""","typhongroup.net/np/data/data2.asp",0,c3
+r229,2,"^Patient's primary language$","""8""","typhongroup.net/np/data/data2.asp",0,c3
+r230,2,"^Type of clinical setting$","""6""","typhongroup.net/np/data/data2.asp",0,c3
+r232,3,"dcomp1_31","3","",0,c5
+r238,0,"^Time spent with patient$","20","typhongroup.net/np/data/data2.asp",0,c6
+r239,0,"^Consult time with preceptor$","5","typhongroup.net/np/data/data2.asp",0,c6
+r240,0,"^Chief complaint$","Wellness Visit","typhongroup.net/np/data/data2.asp",0,c6
+r241,0,"^CPT 1$","99213","typhongroup.net/np/data/data2.asp",0,c6
+r242,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/np/data/data2.asp",1,c6
+r243,0,"^Medications prescribed at this visit$","see below","typhongroup.net/np/data/data2.asp",1,c6
+r244,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/np/data/data2.asp",1,c6
+r245,3,"^Emotional$","1","typhongroup.net/np/data/data2.asp",0,c6
+r246,3,"^Grief$","1","typhongroup.net/np/data/data2.asp",0,c6
+r247,3,"^Growth and Development$","1","typhongroup.net/np/data/data2.asp",0,c6
+r248,3,"^Interpersonal Relationships$","1","typhongroup.net/np/data/data2.asp",0,c6
+r249,3,"^Nutrition/Exercise$","1","typhongroup.net/np/data/data2.asp",0,c6
+r250,3,"^Role Change$","1","typhongroup.net/np/data/data2.asp",0,c6
+r251,3,"^Safety$","1","typhongroup.net/np/data/data2.asp",0,c6
+r252,3,"^Sexuality$","1","typhongroup.net/np/data/data2.asp",0,c6
+r253,3,"^Social Contact/Isolation$","1","typhongroup.net/np/data/data2.asp",0,c6
+r254,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r255,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r256,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r257,3,"^Done Focused Musculoskeletal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r258,3,"^Done Focused Neurological Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r259,3,"^Done Focused Peripheral Vascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r260,3,"^Done Focused Psychological Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r261,3,"^Done Focused Skin Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r262,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/np/data/data2.asp",0,c6
+r263,2,"^Type of decision making$","""1""","typhongroup.net/np/data/data2.asp",0,c6
+r264,2,"^Type of H and P$","""3""","typhongroup.net/np/data/data2.asp",0,c6
+r265,2,"^Patient's primary language$","""8""","typhongroup.net/np/data/data2.asp",0,c6
+r266,2,"^Type of clinical setting$","""7""","typhongroup.net/np/data/data2.asp",0,c6
+r267,2,"^Insurance$","""5""","typhongroup.net/np/data/data2.asp",0,c6
+r268,2,"^Referral$","""9""","typhongroup.net/np/data/data2.asp",0,c6
+r269,2,"^Student participation$","""4""","typhongroup.net/np/data/data2.asp",0,c6
+r270,2,"^Reason for visit$","""2""","typhongroup.net/np/data/data2.asp",0,c6
+r271,2,"^Encounter number$","""1""","typhongroup.net/np/data/data2.asp",0,c6
+r119,0,"^Time spent with patient$","20","typhongroup.net/np/data/data2.asp",0,c2
+r120,0,"^Consult time with preceptor$","5","typhongroup.net/np/data/data2.asp",0,c2
+r121,0,"^Chief complaint$","Wellness Visit","typhongroup.net/np/data/data2.asp",0,c2
+r122,0,"^CPT 1$","99213","typhongroup.net/np/data/data2.asp",0,c2
+r123,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/np/data/data2.asp",1,c2
+r124,0,"^Medications prescribed at this visit$","see below","typhongroup.net/np/data/data2.asp",1,c2
+r125,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/np/data/data2.asp",1,c2
+r126,3,"^Emotional$","1","typhongroup.net/np/data/data2.asp",0,c2
+r127,3,"^Grief$","1","typhongroup.net/np/data/data2.asp",0,c2
+r128,3,"^Growth and Development$","1","typhongroup.net/np/data/data2.asp",0,c2
+r129,3,"^Interpersonal Relationships$","1","typhongroup.net/np/data/data2.asp",0,c2
+r130,3,"^Nutrition/Exercise$","1","typhongroup.net/np/data/data2.asp",0,c2
+r131,3,"^Role Change$","1","typhongroup.net/np/data/data2.asp",0,c2
+r132,3,"^Safety$","1","typhongroup.net/np/data/data2.asp",0,c2
+r133,3,"^Sexuality$","1","typhongroup.net/np/data/data2.asp",0,c2
+r134,3,"^Social Contact/Isolation$","1","typhongroup.net/np/data/data2.asp",0,c2
+r135,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r136,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r137,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r138,3,"^Done Focused Musculoskeletal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r139,3,"^Done Focused Neurological Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r140,3,"^Done Focused Peripheral Vascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r141,3,"^Done Focused Psychological Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r142,3,"^Done Focused Skin Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r143,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/np/data/data2.asp",0,c2
+r144,2,"^Type of decision making$","""1""","typhongroup.net/np/data/data2.asp",0,c2
+r145,2,"^Type of H and P$","""3""","typhongroup.net/np/data/data2.asp",0,c2
+r146,2,"^Patient's primary language$","""8""","typhongroup.net/np/data/data2.asp",0,c2
+r147,2,"^Type of clinical setting$","""7""","typhongroup.net/np/data/data2.asp",0,c2
+r233,2,"^Insurance$","""5""","typhongroup.net/np/data/data2.asp",0,c2
+r234,2,"^Referral$","""9""","typhongroup.net/np/data/data2.asp",0,c2
+r235,2,"^Student participation$","""4""","typhongroup.net/np/data/data2.asp",0,c2
+r236,2,"^Reason for visit$","""2""","typhongroup.net/np/data/data2.asp",0,c2
+r237,2,"^Encounter number$","""1""","typhongroup.net/np/data/data2.asp",0,c2
+r272,3,"^Rural Visit$","1","typhongroup.net/np/data/data2.asp",0,c2
+r273,3,"^Underserved Area$","1","typhongroup.net/np/data/data2.asp",0,c2
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
@@ -133,10 +193,10 @@ backup,0,30,,,,
 manual,1,,,,,
 delay,0,1,,,,
 labelmatch,0,,,,,
-overwrite,1,,,,,
+overwrite,0,,,,,
 vars,1,,,,,
 sound,1,,,,,
-voice,0,6,,,,
+voice,1,6,,,,
 debug,0,,,,,
 mask,1,,,,,
 scale,1,,,,,
