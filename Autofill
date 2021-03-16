@@ -80,39 +80,6 @@ r268,2,"^Referral$","""9""","typhongroup.net/np/data/data2.asp",0,c6
 r269,2,"^Student participation$","""4""","typhongroup.net/np/data/data2.asp",0,c6
 r270,2,"^Reason for visit$","""2""","typhongroup.net/np/data/data2.asp",0,c6
 r271,2,"^Encounter number$","""1""","typhongroup.net/np/data/data2.asp",0,c6
-r352,0,"^Time spent with patient$","20","typhongroup.net/np/data/data2.asp",0,c9
-r353,0,"^Consult time with preceptor$","5","typhongroup.net/np/data/data2.asp",0,c9
-r354,0,"^Chief complaint$","","typhongroup.net/np/data/data2.asp",0,c9
-r355,0,"^CPT 1$","99213","typhongroup.net/np/data/data2.asp",0,c9
-r356,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/np/data/data2.asp",1,c9
-r357,0,"^Medications prescribed at this visit$","see below","typhongroup.net/np/data/data2.asp",1,c9
-r358,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/np/data/data2.asp",1,c9
-r359,3,"^Emotional$","1","typhongroup.net/np/data/data2.asp",0,c9
-r360,3,"^Grief$","1","typhongroup.net/np/data/data2.asp",0,c9
-r361,3,"^Growth and Development$","1","typhongroup.net/np/data/data2.asp",0,c9
-r362,3,"^Interpersonal Relationships$","1","typhongroup.net/np/data/data2.asp",0,c9
-r363,3,"^Nutrition/Exercise$","1","typhongroup.net/np/data/data2.asp",0,c9
-r364,3,"^Role Change$","1","typhongroup.net/np/data/data2.asp",0,c9
-r365,3,"^Safety$","1","typhongroup.net/np/data/data2.asp",0,c9
-r366,3,"^Sexuality$","1","typhongroup.net/np/data/data2.asp",0,c9
-r367,3,"^Social Contact/Isolation$","1","typhongroup.net/np/data/data2.asp",0,c9
-r368,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
-r369,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
-r370,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
-r371,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
-r372,2,"^Type of decision making$","""1""","typhongroup.net/np/data/data2.asp",0,c9
-r373,2,"^Type of H and P$","""3""","typhongroup.net/np/data/data2.asp",0,c9
-r374,2,"^Patient's primary language$","""8""","typhongroup.net/np/data/data2.asp",0,c9
-r375,2,"^Type of clinical setting$","""7""","typhongroup.net/np/data/data2.asp",0,c9
-r376,2,"^Insurance$","""5""","typhongroup.net/np/data/data2.asp",0,c9
-r377,2,"^Referral$","""9""","typhongroup.net/np/data/data2.asp",0,c9
-r378,2,"^Student participation$","""4""","typhongroup.net/np/data/data2.asp",0,c9
-r379,2,"^Reason for visit$","""4""","typhongroup.net/np/data/data2.asp",0,c9
-r380,2,"^Encounter number$","""1""","typhongroup.net/np/data/data2.asp",0,c9
-r383,0,"^Clinical Notes$","***Annotated Note***
-HPI:
-RTC: As needed or if no improvement in s/sx
-Meds: none","typhongroup.net/np/data/data2.asp",0,c9
 r315,0,"^Time spent with patient$","20","",0,c8
 r316,0,"^Consult time with preceptor$","5","",0,c8
 r317,0,"^Chief complaint$","","",0,c8
@@ -148,6 +115,39 @@ r351,0,"^Clinical Notes$","***Annotated Note***
 HPI:
 RTC: As needed or if no improvement in s/sx
 Meds: none","",0,c8
+r352,0,"^Time spent with patient$","20","typhongroup.net/np/data/data2.asp",0,c9
+r353,0,"^Consult time with preceptor$","5","typhongroup.net/np/data/data2.asp",0,c9
+r354,0,"^Chief complaint$","","typhongroup.net/np/data/data2.asp",0,c9
+r355,0,"^CPT 1$","99213","typhongroup.net/np/data/data2.asp",0,c9
+r356,0,"^History of Present Illness \(HPI\)$","see below","typhongroup.net/np/data/data2.asp",1,c9
+r357,0,"^Medications prescribed at this visit$","see below","typhongroup.net/np/data/data2.asp",1,c9
+r358,0,"^When to RTC\.  \(Part of Plan\)$","see below","typhongroup.net/np/data/data2.asp",1,c9
+r359,3,"^Emotional$","1","typhongroup.net/np/data/data2.asp",0,c9
+r360,3,"^Grief$","1","typhongroup.net/np/data/data2.asp",0,c9
+r361,3,"^Growth and Development$","1","typhongroup.net/np/data/data2.asp",0,c9
+r362,3,"^Interpersonal Relationships$","1","typhongroup.net/np/data/data2.asp",0,c9
+r363,3,"^Nutrition/Exercise$","1","typhongroup.net/np/data/data2.asp",0,c9
+r364,3,"^Role Change$","1","typhongroup.net/np/data/data2.asp",0,c9
+r365,3,"^Safety$","1","typhongroup.net/np/data/data2.asp",0,c9
+r366,3,"^Sexuality$","1","typhongroup.net/np/data/data2.asp",0,c9
+r367,3,"^Social Contact/Isolation$","1","typhongroup.net/np/data/data2.asp",0,c9
+r368,3,"^Done Focused Abdominal Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
+r369,3,"^Done Focused Cardiovascular Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
+r370,3,"^Done Focused Head and Neck Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
+r371,3,"^Done Focused Thorax and Lung Assessment$","1","typhongroup.net/np/data/data2.asp",0,c9
+r372,2,"^Type of decision making$","""1""","typhongroup.net/np/data/data2.asp",0,c9
+r373,2,"^Type of H and P$","""3""","typhongroup.net/np/data/data2.asp",0,c9
+r374,2,"^Patient's primary language$","""3""","typhongroup.net/np/data/data2.asp",0,c9
+r375,2,"^Type of clinical setting$","""7""","typhongroup.net/np/data/data2.asp",0,c9
+r376,2,"^Insurance$","""5""","typhongroup.net/np/data/data2.asp",0,c9
+r377,2,"^Referral$","""9""","typhongroup.net/np/data/data2.asp",0,c9
+r378,2,"^Student participation$","""4""","typhongroup.net/np/data/data2.asp",0,c9
+r379,2,"^Reason for visit$","""4""","typhongroup.net/np/data/data2.asp",0,c9
+r380,2,"^Encounter number$","""1""","typhongroup.net/np/data/data2.asp",0,c9
+r383,0,"^Clinical Notes$","***Annotated Note***
+HPI:
+RTC: As needed or if no improvement in s/sx
+Meds: none","typhongroup.net/np/data/data2.asp",0,c9
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
