@@ -1,216 +1,177 @@
 ### AUTOFILL PROFILES ###,,,,,,
 Profile ID,Name,Site,Hotkey,,,
-c2,Wellness,typhongroup.net/np/data/data2.asp,Option + Ç,,,
-c8,Episodic,typhongroup.net/np/data/data2.asp,Option + Dead,,,
-c13,Episodic - Allergies,typhongroup.net/np/data/data2.asp,,,,
-c14,Episodic - N/V/Gastro,typhongroup.net/np/data/data2.asp,,,,
-c15,Episodic - I/D Abscess,typhongroup.net/np/data/data2.asp,,,,
-c16,Episodic - Toradol,typhongroup.net/np/data/data2.asp,,,,
-c12,-Annual - Urban,typhongroup.net/np/data/data2.asp,,,,
-c11,-Episodic - Urban,typhongroup.net/np/data/data2.asp,,,,
+c1,Wellness,typhongroup.net/np/data/data2.asp,Ctrl + W,,,
+c2,Episodic,typhongroup.net/np/data/data2.asp,Ctrl + E,,,
+c3,Episodic - Allergies,typhongroup.net/np/data/data2.asp,Ctrl + A,,,
+c4,Episodic - N/V/Gastro,typhongroup.net/np/data/data2.asp,Ctrl + N,,,
+c5,Episodic - I/D Abscess,typhongroup.net/np/data/data2.asp,Ctrl + I,,,
+c6,Episodic - Albuterol,typhongroup.net/np/data/data2.asp,,,,
+c7,Episodic - COVID,typhongroup.net/np/data/data2.asp,,,,
+c8,Episodic - Torodol,typhongroup.net/np/data/data2.asp,,,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
-r315,0,"^TimeSpent$","20","",0,c8
-r316,0,"^consulttime$","5","",0,c8
-r318,0,"^CPT 1$","99213","",0,c8
-r319,0,"^History of Present Illness \(HPI\)$","see below","",1,c8
-r320,0,"^Medications prescribed at this visit$","see below","",1,c8
-r321,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c8
-r322,3,"^social11$","1","",0,c8
-r324,3,"^social16$","1","",0,c8
-r325,3,"^social8$","1","",0,c8
-r326,3,"^social21$","1","",0,c8
-r327,3,"^social4$","1","",0,c8
-r328,3,"^social2$","1","",0,c8
-r329,3,"^social6$","1","",0,c8
-r340,2,"^Type of decision making$","""1""","",0,c8
-r341,2,"^Type of H and P$","""1""","",0,c8
-r342,2,"^Patient's primary language$","""8""","",0,c8
-r343,2,"^Type of clinical setting$","""7""","",0,c8
-r345,2,"^Referral$","""9""","",0,c8
-r346,2,"^Student participation$","""4""","",0,c8
-r347,2,"^Reason for visit$","""3""","",0,c8
-r348,2,"^Encounter number$","""1""","",0,c8
-r349,3,"^Rural Visit$","1","",0,c8
-r350,3,"^Underserved Area$","1","",0,c8
-r351,0,"^Clinical Notes$","***Annotated Note***
-HPI:
-RTC: As needed or if no improvement in s/sx
-Meds: none","",0,c8
-r456,3,"^dcomp1_31$","1","",0,c8
-r457,3,"^dcomp1_37$","1","",0,c8
-r458,3,"^dcomp1_39$","1","",0,c8
-r459,0,"^TimeSpent$","20","",0,c11
-r460,0,"^consulttime$","5","",0,c11
-r461,0,"^CPT 1$","99213","",0,c11
-r462,0,"^History of Present Illness \(HPI\)$","see below","",1,c11
-r463,0,"^Medications prescribed at this visit$","see below","",1,c11
-r464,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c11
-r465,3,"^social11$","1","",0,c11
-r466,3,"^social16$","1","",0,c11
-r467,3,"^social8$","1","",0,c11
-r468,3,"^social21$","1","",0,c11
-r469,3,"^social4$","1","",0,c11
-r470,3,"^social2$","1","",0,c11
-r471,3,"^social6$","1","",0,c11
-r472,2,"^Type of decision making$","""1""","",0,c11
-r473,2,"^Type of H and P$","""1""","",0,c11
-r474,2,"^Patient's primary language$","""8""","",0,c11
-r475,2,"^Type of clinical setting$","""6""","",0,c11
-r476,2,"^Referral$","""9""","",0,c11
-r477,2,"^Student participation$","""4""","",0,c11
-r478,2,"^Reason for visit$","""3""","",0,c11
-r479,2,"^Encounter number$","""1""","",0,c11
-r480,3,"^Rural Visit$","0","",0,c11
-r481,3,"^Underserved Area$","0","",0,c11
-r482,0,"^Clinical Notes$","***Annotated Note***
-HPI:
-RTC: As needed or if no improvement in s/sx
-Meds: none","",0,c11
-r483,3,"^dcomp1_31$","1","",0,c11
-r484,3,"^dcomp1_37$","1","",0,c11
-r485,3,"^dcomp1_39$","1","",0,c11
-r499,0,"^TimeSpent$","20","",0,c12
-r500,0,"^consulttime$","5","",0,c12
-r501,0,"^Chief complaint$","Wellness Visit","",0,c12
-r502,0,"^CPT 1$","","",0,c12
-r503,0,"^History of Present Illness \(HPI\)$","see below","",1,c12
-r504,0,"^Medications prescribed at this visit$","see below","",1,c12
-r505,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c12
-r506,3,"^social11$","1","",0,c12
-r507,3,"^social16$","1","",0,c12
-r508,3,"^social3$","1","",0,c12
-r509,3,"^social8$","1","",0,c12
-r510,3,"^social21$","1","",0,c12
-r511,3,"^social17$","1","",0,c12
-r512,3,"^social4$","1","",0,c12
-r513,3,"^social2$","1","",0,c12
-r514,3,"^social6$","1","",0,c12
-r515,3,"^social12$","1","",0,c12
-r516,2,"^Type of decision making$","""1""","",0,c12
-r517,2,"^Type of H and P$","""3""","",0,c12
-r518,2,"^Patient's primary language$","""8""","",0,c12
-r519,2,"^Type of clinical setting$","""6""","",0,c12
-r520,2,"^Referral$","""9""","",0,c12
-r521,2,"^Student participation$","""4""","",0,c12
-r522,2,"^Reason for visit$","""2""","",0,c12
-r523,2,"^Encounter number$","""1""","",0,c12
-r524,3,"^Rural Visit$","0","",0,c12
-r525,3,"^Underserved Area$","0","",0,c12
-r526,0,"^Clinical Notes$","***Annotated Note***
+r100,0,"^TimeSpent$","20","",1,c1
+r101,0,"^consulttime$","5","",1,c1
+r102,0,"^complaint$","Wellness Visit","",1,c1
+r103,0,"^cpt1$","","",1,c1
+r104,0,"^customfill1$","see below","",1,c1
+r105,0,"^customfill2$","see below","",1,c1
+r106,0,"^customfill3$","see below","",1,c1
+r107,3,"^social11$","1","",0,c1
+r108,3,"^social16$","1","",0,c1
+r109,3,"^social3$","1","",0,c1
+r110,3,"^social8$","1","",0,c1
+r111,3,"^social21$","1","",0,c1
+r112,3,"^social17$","1","",0,c1
+r113,3,"^social4$","1","",0,c1
+r114,3,"^social2$","1","",0,c1
+r115,3,"^social6$","1","",0,c1
+r116,3,"^social12$","1","",0,c1
+r117,2,"^typedecision$","""1""","",0,c1
+r118,2,"^typehp$","""3""","",0,c1
+r119,2,"^customdrop1$","""8""","",0,c1
+r120,2,"^customdrop2$","""7""","",0,c1
+r121,2,"^referral$","""9""","",0,c1
+r122,2,"^studentpartic$","""4""","",0,c1
+r123,2,"^visitreason$","""2""","",0,c1
+r124,2,"^encounter$","""1""","",0,c1
+r125,0,"^notes$","***Annotated Note***
 HPI:
 RTC: In one year for next wellness visit 
-Meds: none","",0,c12
-r527,3,"^dcomp1_42$","1","",0,c12
-r528,3,"^dcomp1_32$","1","",0,c12
-r529,3,"^dcomp1_31$","1","",0,c12
-r530,3,"^dcomp1_39$","1","",0,c12
-r531,3,"^dcomp1_38$","1","",0,c12
-r532,3,"^dcomp1_33$","1","",0,c12
-r533,3,"^dcomp1_36$","1","",0,c12
-r534,3,"^dcomp1_34$","1","",0,c12
-r535,3,"^dcomp1_35$","1","",0,c12
-r536,3,"^dcomp1_37$","1","",0,c12
-r537,3,"^dcomp1_18$","1","",0,c12
-r538,0,"^TimeSpent$","20","",0,c13
-r539,0,"^consulttime$","5","",0,c13
-r540,0,"^CPT 1$","99213","",0,c13
-r541,0,"^History of Present Illness \(HPI\)$","see below","",1,c13
-r542,0,"^Medications prescribed at this visit$","see below","",1,c13
-r543,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c13
-r544,3,"^social11$","1","",0,c13
-r545,3,"^social16$","1","",0,c13
-r546,3,"^social8$","1","",0,c13
-r547,3,"^social21$","1","",0,c13
-r548,3,"^social4$","1","",0,c13
-r549,3,"^social2$","1","",0,c13
-r550,3,"^social6$","1","",0,c13
-r551,2,"^Type of decision making$","""1""","",0,c13
-r552,2,"^Type of H and P$","""1""","",0,c13
-r553,2,"^Patient's primary language$","""8""","",0,c13
-r554,2,"^Type of clinical setting$","""7""","",0,c13
-r555,2,"^Referral$","""9""","",0,c13
-r556,2,"^Student participation$","""4""","",0,c13
-r557,2,"^Reason for visit$","""3""","",0,c13
-r558,2,"^Encounter number$","""1""","",0,c13
-r559,3,"^Rural Visit$","1","",0,c13
-r560,3,"^Underserved Area$","1","",0,c13
-r561,0,"^Clinical Notes$","***Annotated Note***
+Meds: none","",1,c1
+r126,3,"^dcomp1_42$","1","",0,c1
+r127,3,"^dcomp1_32$","1","",0,c1
+r128,3,"^dcomp1_31$","1","",0,c1
+r129,3,"^dcomp1_39$","1","",0,c1
+r130,3,"^dcomp1_38$","1","",0,c1
+r131,3,"^dcomp1_33$","1","",0,c1
+r132,3,"^dcomp1_36$","1","",0,c1
+r133,3,"^dcomp1_34$","1","",0,c1
+r134,3,"^dcomp1_35$","1","",0,c1
+r135,3,"^dcomp1_37$","1","",0,c1
+r136,3,"^dcomp1_18$","1","",0,c1
+r137,0,"^icd1$","Z00","",1,c1
+r138,0,"^TimeSpent$","20","",1,c2
+r139,0,"^consulttime$","5","",1,c2
+r140,0,"^cpt1$","99213","",1,c2
+r141,0,"^customfill1$","see below","",1,c2
+r142,0,"^customfill2$","see below","",1,c2
+r143,0,"^customfill3$","see below","",1,c2
+r144,3,"^social11$","1","",0,c2
+r145,3,"^social16$","1","",0,c2
+r146,3,"^social8$","1","",0,c2
+r147,3,"^social21$","1","",0,c2
+r148,3,"^social4$","1","",0,c2
+r149,3,"^social2$","1","",0,c2
+r150,3,"^social6$","1","",0,c2
+r151,2,"^typedecision$","""1""","",0,c2
+r152,2,"^typehp$","""1""","",0,c2
+r153,2,"^customdrop1$","""8""","",0,c2
+r154,2,"^customdrop2$","""7""","",0,c2
+r155,2,"^referral$","""9""","",0,c2
+r156,2,"^studentpartic$","""4""","",0,c2
+r157,2,"^visitreason$","""3""","",0,c2
+r158,2,"^encounter$","""1""","",0,c2
+r159,0,"^notes$","***Annotated Note***
+HPI:
+RTC: As needed or if no improvement in s/sx
+Meds: none","",1,c2
+r160,3,"^dcomp1_31$","1","",0,c2
+r161,3,"^dcomp1_37$","1","",0,c2
+r162,3,"^dcomp1_39$","1","",0,c2
+r163,0,"^TimeSpent$","20","",1,c3
+r164,0,"^consulttime$","5","",1,c3
+r165,0,"^cpt1$","99213","",1,c3
+r166,0,"^customfill1$","see below","",1,c3
+r167,0,"^customfill2$","see below","",1,c3
+r168,0,"^customfill3$","see below","",1,c3
+r169,3,"^social11$","1","",0,c3
+r170,3,"^social16$","1","",0,c3
+r171,3,"^social8$","1","",0,c3
+r172,3,"^social21$","1","",0,c3
+r173,3,"^social4$","1","",0,c3
+r174,3,"^social2$","1","",0,c3
+r175,3,"^social6$","1","",0,c3
+r176,2,"^typedecision$","""1""","",0,c3
+r177,2,"^typehp$","""1""","",0,c3
+r178,2,"^customdrop1$","""8""","",0,c3
+r179,2,"^customdrop2$","""7""","",0,c3
+r180,2,"^referral$","""9""","",0,c3
+r181,2,"^studentpartic$","""4""","",0,c3
+r182,2,"^visitreason$","""3""","",0,c3
+r183,2,"^encounter$","""1""","",0,c3
+r184,0,"^notes$","***Annotated Note***
 HPI:
 RTC: As needed or if no improvement in s/sx
 Meds: 
 --Flonase (Fluticasone) (50 mcg), 1 spray Nasal daily, Disp: 1 Bottle, RF: 2
---Zyrtec (10 mg), PO Daily, disp: 30, RF: 2","",0,c13
-r562,3,"^dcomp1_31$","1","",0,c13
-r563,3,"^dcomp1_37$","1","",0,c13
-r564,3,"^dcomp1_39$","1","",0,c13
-r565,0,"^icd1$","J30.89","",0,c13
-r566,0,"^icd2$","J00","",0,c13
-r567,0,"^rxnumtoday$","2","",0,c13
-r664,3,"^ent1$","1","",0,c13
-r665,3,"^ent6$","1","",0,c13
-r568,0,"^TimeSpent$","20","",0,c14
-r569,0,"^consulttime$","5","",0,c14
-r570,0,"^CPT 1$","99213","",0,c14
-r571,0,"^History of Present Illness \(HPI\)$","see below","",1,c14
-r572,0,"^Medications prescribed at this visit$","see below","",1,c14
-r573,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c14
-r574,3,"^social11$","1","",0,c14
-r575,3,"^social16$","1","",0,c14
-r576,3,"^social8$","1","",0,c14
-r577,3,"^social21$","1","",0,c14
-r578,3,"^social4$","1","",0,c14
-r579,3,"^social2$","1","",0,c14
-r580,3,"^social6$","1","",0,c14
-r581,2,"^Type of decision making$","""1""","",0,c14
-r582,2,"^Type of H and P$","""1""","",0,c14
-r583,2,"^Patient's primary language$","""8""","",0,c14
-r584,2,"^Type of clinical setting$","""7""","",0,c14
-r585,2,"^Referral$","""9""","",0,c14
-r586,2,"^Student participation$","""4""","",0,c14
-r587,2,"^Reason for visit$","""3""","",0,c14
-r588,2,"^Encounter number$","""1""","",0,c14
-r589,3,"^Rural Visit$","1","",0,c14
-r590,3,"^Underserved Area$","1","",0,c14
-r591,0,"^Clinical Notes$","***Annotated Note***
+--Zyrtec (10 mg), PO Daily, disp: 30, RF: 2","",1,c3
+r185,3,"^dcomp1_31$","1","",0,c3
+r186,3,"^dcomp1_37$","1","",0,c3
+r187,3,"^dcomp1_39$","1","",0,c3
+r188,0,"^icd1$","J30.89","",1,c3
+r189,0,"^icd2$","J00","",1,c3
+r190,0,"^rxnumtoday$","2","",1,c3
+r191,3,"^ent1$","1","",0,c3
+r192,3,"^ent6$","1","",0,c3
+r193,0,"^TimeSpent$","20","",1,c4
+r194,0,"^consulttime$","5","",1,c4
+r195,0,"^cpt1$","99213","",1,c4
+r196,0,"^customfill1$","see below","",1,c4
+r197,0,"^customfill2$","see below","",1,c4
+r198,0,"^customfill3$","see below","",1,c4
+r199,3,"^social11$","1","",0,c4
+r200,3,"^social16$","1","",0,c4
+r201,3,"^social8$","1","",0,c4
+r202,3,"^social21$","1","",0,c4
+r203,3,"^social4$","1","",0,c4
+r204,3,"^social2$","1","",0,c4
+r205,3,"^social6$","1","",0,c4
+r206,2,"^typedecision$","""1""","",0,c4
+r207,2,"^typehp$","""1""","",0,c4
+r208,2,"^customdrop1$","""8""","",0,c4
+r209,2,"^customdrop2$","""7""","",0,c4
+r210,2,"^referral$","""9""","",0,c4
+r211,2,"^studentpartic$","""4""","",0,c4
+r212,2,"^visitreason$","""3""","",0,c4
+r213,2,"^encounter$","""1""","",0,c4
+r214,0,"^notes$","***Annotated Note***
 HPI:
 RTC: As needed or if no improvement in s/sx
 Meds: 
---Zofran (8 mg), SL, PRN TID N/V, disp: 15, refill(s) 1","",0,c14
-r592,3,"^dcomp1_31$","1","",0,c14
-r593,3,"^dcomp1_37$","1","",0,c14
-r594,3,"^dcomp1_39$","1","",0,c14
-r595,0,"^icd1$","K52.9","",0,c14
-r596,0,"^icd2$","","",0,c14
-r597,0,"^rxnumtoday$","1","",0,c14
-r666,3,"^gi2$","1","",0,c14
-r667,3,"^dcomp1_42$","1","",0,c14
-r598,0,"^TimeSpent$","30","",0,c15
-r599,0,"^consulttime$","5","",0,c15
-r600,0,"^CPT 1$","99213","",0,c15
-r628,0,"^CPT 2$","10060","",0,c15
-r629,0,"^CPT 3$","96372","",0,c15
-r601,0,"^History of Present Illness \(HPI\)$","see below","",1,c15
-r602,0,"^Medications prescribed at this visit$","see below","",1,c15
-r603,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c15
-r604,3,"^social11$","1","",0,c15
-r605,3,"^social16$","1","",0,c15
-r606,3,"^social8$","1","",0,c15
-r607,3,"^social21$","1","",0,c15
-r608,3,"^social4$","1","",0,c15
-r609,3,"^social2$","1","",0,c15
-r610,3,"^social6$","1","",0,c15
-r611,2,"^Type of decision making$","""1""","",0,c15
-r612,2,"^Type of H and P$","""1""","",0,c15
-r613,2,"^Patient's primary language$","""8""","",0,c15
-r614,2,"^Type of clinical setting$","""7""","",0,c15
-r615,2,"^Referral$","""9""","",0,c15
-r616,2,"^Student participation$","""4""","",0,c15
-r617,2,"^Reason for visit$","""3""","",0,c15
-r618,2,"^Encounter number$","""1""","",0,c15
-r619,3,"^Rural Visit$","1","",0,c15
-r620,3,"^Underserved Area$","1","",0,c15
-r621,0,"^Clinical Notes$","***Annotated Note***
+--Zofran (8 mg), SL, PRN TID N/V, disp: 15, refill(s) 1","",1,c4
+r215,3,"^dcomp1_31$","1","",0,c4
+r216,3,"^dcomp1_37$","1","",0,c4
+r217,3,"^dcomp1_39$","1","",0,c4
+r218,0,"^icd1$","K52.9","",1,c4
+r219,0,"^icd2$","","",1,c4
+r220,0,"^rxnumtoday$","1","",1,c4
+r221,3,"^gi2$","1","",0,c4
+r222,3,"^dcomp1_42$","1","",0,c4
+r223,0,"^TimeSpent$","30","",1,c5
+r224,0,"^consulttime$","5","",1,c5
+r225,0,"^cpt1$","99213","",1,c5
+r226,0,"^cpt2$","10060","",1,c5
+r227,0,"^cpt3$","96372","",1,c5
+r228,0,"^customfill1$","see below","",1,c5
+r229,0,"^customfill2$","see below","",1,c5
+r230,0,"^customfill3$","see below","",1,c5
+r231,3,"^social11$","1","",0,c5
+r232,3,"^social16$","1","",0,c5
+r233,3,"^social8$","1","",0,c5
+r234,3,"^social21$","1","",0,c5
+r235,3,"^social4$","1","",0,c5
+r236,3,"^social2$","1","",0,c5
+r237,3,"^social6$","1","",0,c5
+r238,2,"^typedecision$","""1""","",0,c5
+r239,2,"^typehp$","""1""","",0,c5
+r240,2,"^customdrop1$","""8""","",0,c5
+r241,2,"^customdrop2$","""7""","",0,c5
+r242,2,"^referral$","""9""","",0,c5
+r243,2,"^studentpartic$","""4""","",0,c5
+r244,2,"^visitreason$","""3""","",0,c5
+r245,2,"^encounter$","""1""","",0,c5
+r246,0,"^notes$","***Annotated Note***
 HPI:
 RTC: As needed or if no improvement in s/sx
 Meds:
@@ -220,42 +181,115 @@ Clinic Med:
 --J1885 (x2) -Lidocaine 1% (1 mL), SubQ Once
 -----96372 -Therapeutic injection
 
-Cleaned site with iodine and alcohol prep. Draped abscess with sterile drape. Injected 2.0 mL of 1% lidocaine around the abscess. Incised abscess with #11 blade. Large amount of purulent material drained. Sterile cover dressing applied.","",0,c15
-r622,3,"^dcomp1_31$","1","",0,c15
-r623,3,"^dcomp1_37$","1","",0,c15
-r624,3,"^dcomp1_39$","1","",0,c15
-r625,0,"^icd1$","L02.91","",0,c15
-r626,0,"^rxnumtoday$","1","",0,c15
-r627,3,"^infect20$","1","",0,c15
-r630,3,"^dcomp1_5$","1","",0,c15
-r668,3,"^dcomp1_35$","1","",0,c15
-r669,3,"^social18$","1","",0,c15
-r670,0,"^soctext$","Wound Care","",0,c15
-r631,0,"^TimeSpent$","30","",0,c16
-r632,0,"^consulttime$","5","",0,c16
-r633,0,"^CPT 1$","99213","",0,c16
-r635,0,"^CPT 2$","96372","",0,c16
-r636,0,"^History of Present Illness \(HPI\)$","see below","",1,c16
-r637,0,"^Medications prescribed at this visit$","see below","",1,c16
-r638,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c16
-r639,3,"^social11$","1","",0,c16
-r640,3,"^social16$","1","",0,c16
-r641,3,"^social8$","1","",0,c16
-r642,3,"^social21$","1","",0,c16
-r643,3,"^social4$","1","",0,c16
-r644,3,"^social2$","1","",0,c16
-r645,3,"^social6$","1","",0,c16
-r646,2,"^Type of decision making$","""1""","",0,c16
-r647,2,"^Type of H and P$","""1""","",0,c16
-r648,2,"^Patient's primary language$","""8""","",0,c16
-r649,2,"^Type of clinical setting$","""7""","",0,c16
-r650,2,"^Referral$","""9""","",0,c16
-r651,2,"^Student participation$","""4""","",0,c16
-r652,2,"^Reason for visit$","""3""","",0,c16
-r653,2,"^Encounter number$","""1""","",0,c16
-r654,3,"^Rural Visit$","1","",0,c16
-r655,3,"^Underserved Area$","1","",0,c16
-r656,0,"^Clinical Notes$","***Annotated Note***
+Cleaned site with iodine and alcohol prep. Draped abscess with sterile drape. Injected 2.0 mL of 1% lidocaine around the abscess. Incised abscess with #11 blade. Large amount of purulent material drained. Sterile cover dressing applied.","",1,c5
+r247,3,"^dcomp1_31$","1","",0,c5
+r248,3,"^dcomp1_37$","1","",0,c5
+r249,3,"^dcomp1_39$","1","",0,c5
+r250,0,"^icd1$","L02.91","",1,c5
+r251,0,"^rxnumtoday$","1","",1,c5
+r252,3,"^infect20$","1","",0,c5
+r253,3,"^dcomp1_5$","1","",0,c5
+r254,3,"^dcomp1_35$","1","",0,c5
+r255,3,"^social18$","1","",0,c5
+r256,0,"^soctext$","Wound Care","",1,c5
+r257,0,"^TimeSpent$","20","",1,c6
+r258,0,"^consulttime$","5","",1,c6
+r259,0,"^cpt1$","99213","",1,c6
+r260,0,"^cpt2$","94640","",1,c6
+r261,0,"^customfill1$","see below","",1,c6
+r262,0,"^customfill2$","see below","",1,c6
+r263,0,"^customfill3$","see below","",1,c6
+r264,3,"^social11$","1","",0,c6
+r265,3,"^social16$","1","",0,c6
+r266,3,"^social8$","1","",0,c6
+r267,3,"^social21$","1","",0,c6
+r268,3,"^social4$","1","",0,c6
+r269,3,"^social2$","1","",0,c6
+r270,3,"^social6$","1","",0,c6
+r271,2,"^typedecision$","""1""","",0,c6
+r272,2,"^typehp$","""1""","",0,c6
+r273,2,"^customdrop1$","""8""","",0,c6
+r274,2,"^customdrop2$","""7""","",0,c6
+r275,2,"^referral$","""9""","",0,c6
+r276,2,"^studentpartic$","""4""","",0,c6
+r277,2,"^visitreason$","""3""","",0,c6
+r278,2,"^encounter$","""1""","",0,c6
+r279,0,"^notes$","***Annotated Note***
+HPI:
+RTC: As needed or if no improvement in s/sx
+Meds: 
+--Albuterol 0.08% (2.5 mg/3 ml), 1 Neb Q 3-4 Hrs PRN wheezing/SOB, Disp: 1 Box (25), RF: 5
+---Nebulizer machine and age-appropriate accessories 
+
+Clinic Med:
+--J7613 -Albuterol (5 mg), INH Once
+---94640 (x5) -Airway inhalation treatment","",1,c6
+r280,3,"^dcomp1_31$","1","",0,c6
+r281,3,"^dcomp1_37$","1","",0,c6
+r282,3,"^dcomp1_39$","1","",0,c6
+r283,0,"^icd1$","R06.2","",1,c6
+r284,0,"^rxnumtoday$","1","",1,c6
+r285,3,"^pulm3$","1","",0,c6
+r286,3,"^dcomp1_35$","1","",0,c6
+r287,3,"^dcomp1_38$","1","",0,c6
+r288,0,"^icd2$","J45.901","",1,c6
+r289,0,"^TimeSpent$","20","",1,c7
+r290,0,"^consulttime$","5","",1,c7
+r291,0,"^cpt1$","99213","",1,c7
+r292,0,"^cpt2$","87811","",1,c7
+r293,0,"^customfill1$","see below","",1,c7
+r294,0,"^customfill2$","see below","",1,c7
+r295,0,"^customfill3$","see below","",1,c7
+r296,3,"^social11$","1","",0,c7
+r297,3,"^social16$","1","",0,c7
+r298,3,"^social8$","1","",0,c7
+r299,3,"^social21$","1","",0,c7
+r300,3,"^social4$","1","",0,c7
+r301,3,"^social2$","1","",0,c7
+r302,3,"^social6$","1","",0,c7
+r303,2,"^typedecision$","""1""","",0,c7
+r304,2,"^typehp$","""1""","",0,c7
+r305,2,"^customdrop1$","""8""","",0,c7
+r306,2,"^customdrop2$","""7""","",0,c7
+r307,2,"^referral$","""9""","",0,c7
+r308,2,"^studentpartic$","""4""","",0,c7
+r309,2,"^visitreason$","""3""","",0,c7
+r310,2,"^encounter$","""1""","",0,c7
+r311,0,"^notes$","***Annotated Note***
+HPI:
+RTC: As needed or if no improvement in s/sx
+Meds: None","",1,c7
+r312,3,"^dcomp1_31$","1","",0,c7
+r313,3,"^dcomp1_37$","1","",0,c7
+r314,3,"^dcomp1_39$","1","",0,c7
+r315,0,"^icd1$","Z11.52","",1,c7
+r316,3,"^dcomp1_35$","1","",0,c7
+r317,3,"^dcomp1_38$","1","",0,c7
+r318,0,"^icd2$","U07.1","",1,c7
+r319,0,"^complaint$","COVID Testing","",1,c7
+r320,0,"^TimeSpent$","30","",1,c8
+r321,0,"^consulttime$","5","",1,c8
+r322,0,"^cpt1$","99213","",1,c8
+r323,0,"^cpt2$","96372","",1,c8
+r324,0,"^customfill1$","see below","",1,c8
+r325,0,"^customfill2$","see below","",1,c8
+r326,0,"^customfill3$","see below","",1,c8
+r327,3,"^social11$","1","",0,c8
+r328,3,"^social16$","1","",0,c8
+r329,3,"^social8$","1","",0,c8
+r330,3,"^social21$","1","",0,c8
+r331,3,"^social4$","1","",0,c8
+r332,3,"^social2$","1","",0,c8
+r333,3,"^social6$","1","",0,c8
+r334,2,"^typedecision$","""1""","",0,c8
+r335,2,"^typehp$","""1""","",0,c8
+r336,2,"^customdrop1$","""8""","",0,c8
+r337,2,"^customdrop2$","""7""","",0,c8
+r338,2,"^referral$","""9""","",0,c8
+r339,2,"^studentpartic$","""4""","",0,c8
+r340,2,"^visitreason$","""3""","",0,c8
+r341,2,"^encounter$","""1""","",0,c8
+r342,0,"^notes$","***Annotated Note***
 HPI:
 RTC: As needed or if no improvement in s/sx
 Meds: 
@@ -263,67 +297,24 @@ Meds:
 
 Clinic Med:
 --J1885 (x2) -Ketorolac (Toradol) (30 mg), IM Once
----96372 -Therapeutic injection","",0,c16
-r657,3,"^dcomp1_31$","1","",0,c16
-r658,3,"^dcomp1_37$","1","",0,c16
-r659,3,"^dcomp1_39$","1","",0,c16
-r660,0,"^icd1$","","",0,c16
-r661,0,"^rxnumtoday$","1","",0,c16
-r662,3,"^anal5$","1","",0,c16
-r671,3,"^dcomp1_35$","1","",0,c16
-r672,3,"^dcomp1_38$","1","",0,c16
-r119,0,"^TimeSpent$","20","",0,c2
-r120,0,"^consulttime$","5","",0,c2
-r121,0,"^Chief complaint$","Wellness Visit","",0,c2
-r122,0,"^CPT 1$","","",0,c2
-r123,0,"^History of Present Illness \(HPI\)$","see below","",1,c2
-r124,0,"^Medications prescribed at this visit$","see below","",1,c2
-r125,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c2
-r126,3,"^social11$","1","",0,c2
-r127,3,"^social16$","1","",0,c2
-r128,3,"^social3$","1","",0,c2
-r129,3,"^social8$","1","",0,c2
-r130,3,"^social21$","1","",0,c2
-r131,3,"^social17$","1","",0,c2
-r132,3,"^social4$","1","",0,c2
-r133,3,"^social2$","1","",0,c2
-r486,3,"^social6$","1","",0,c2
-r487,3,"^social12$","1","",0,c2
-r144,2,"^Type of decision making$","""1""","",0,c2
-r145,2,"^Type of H and P$","""3""","",0,c2
-r146,2,"^Patient's primary language$","""8""","",0,c2
-r147,2,"^Type of clinical setting$","""7""","",0,c2
-r234,2,"^Referral$","""9""","",0,c2
-r235,2,"^Student participation$","""4""","",0,c2
-r236,2,"^Reason for visit$","""2""","",0,c2
-r237,2,"^Encounter number$","""1""","",0,c2
-r272,3,"^Rural Visit$","1","",0,c2
-r273,3,"^Underserved Area$","1","",0,c2
-r275,0,"^Clinical Notes$","***Annotated Note***
-HPI:
-RTC: In one year for next wellness visit 
-Meds: none","",0,c2
-r424,3,"^dcomp1_42$","1","",0,c2
-r488,3,"^dcomp1_32$","1","",0,c2
-r489,3,"^dcomp1_31$","1","",0,c2
-r490,3,"^dcomp1_39$","1","",0,c2
-r491,3,"^dcomp1_38$","1","",0,c2
-r492,3,"^dcomp1_33$","1","",0,c2
-r493,3,"^dcomp1_36$","1","",0,c2
-r494,3,"^dcomp1_34$","1","",0,c2
-r495,3,"^dcomp1_35$","1","",0,c2
-r496,3,"^dcomp1_37$","1","",0,c2
-r498,3,"^dcomp1_18$","1","",0,c2
-r673,0,"^icd1$","Z00","",0,c2
+---96372 -Therapeutic injection","",1,c8
+r343,3,"^dcomp1_31$","1","",0,c8
+r344,3,"^dcomp1_37$","1","",0,c8
+r345,3,"^dcomp1_39$","1","",0,c8
+r346,0,"^icd1$","","",1,c8
+r347,0,"^rxnumtoday$","1","",1,c8
+r348,3,"^anal5$","1","",0,c8
+r349,3,"^dcomp1_35$","1","",0,c8
+r350,3,"^dcomp1_38$","1","",0,c8
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
-textclips,"[""Annotated>Wellness\n***Annotated Note***\nHPI:\nRTC: In one year for next wellness visit \nMeds: none"",""Annotated>S/S\n***Annotated Note***\nHPI:\nRTC: As needed or if no improvement in s/sx \nMeds: none""]",,,,,
+textclips,"[]",,,,,
 variables,"[]",,,,,
 backup,0,30,,,,
 manual,1,,,,,
 delay,0,1,,,,
-labelmatch,1,,,,,
+labelmatch,0,,,,,
 overwrite,0,,,,,
 vars,1,,,,,
 sound,0,,,,,
