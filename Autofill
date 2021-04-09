@@ -40,48 +40,6 @@ Meds: none","",0,c8
 r456,3,"^dcomp1_31$","1","",0,c8
 r457,3,"^dcomp1_37$","1","",0,c8
 r458,3,"^dcomp1_39$","1","",0,c8
-r119,0,"^TimeSpent$","20","",0,c2
-r120,0,"^consulttime$","5","",0,c2
-r121,0,"^Chief complaint$","Wellness Visit","",0,c2
-r122,0,"^CPT 1$","","",0,c2
-r123,0,"^History of Present Illness \(HPI\)$","see below","",1,c2
-r124,0,"^Medications prescribed at this visit$","see below","",1,c2
-r125,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c2
-r126,3,"^social11$","1","",0,c2
-r127,3,"^social16$","1","",0,c2
-r128,3,"^social3$","1","",0,c2
-r129,3,"^social8$","1","",0,c2
-r130,3,"^social21$","1","",0,c2
-r131,3,"^social17$","1","",0,c2
-r132,3,"^social4$","1","",0,c2
-r133,3,"^social2$","1","",0,c2
-r486,3,"^social6$","1","",0,c2
-r487,3,"^social12$","1","",0,c2
-r144,2,"^Type of decision making$","""1""","",0,c2
-r145,2,"^Type of H and P$","""3""","",0,c2
-r146,2,"^Patient's primary language$","""8""","",0,c2
-r147,2,"^Type of clinical setting$","""7""","",0,c2
-r234,2,"^Referral$","""9""","",0,c2
-r235,2,"^Student participation$","""4""","",0,c2
-r236,2,"^Reason for visit$","""2""","",0,c2
-r237,2,"^Encounter number$","""1""","",0,c2
-r272,3,"^Rural Visit$","1","",0,c2
-r273,3,"^Underserved Area$","1","",0,c2
-r275,0,"^Clinical Notes$","***Annotated Note***
-HPI:
-RTC: In one year for next wellness visit 
-Meds: none","",0,c2
-r424,3,"^dcomp1_42$","1","",0,c2
-r488,3,"^dcomp1_32$","1","",0,c2
-r489,3,"^dcomp1_31$","1","",0,c2
-r490,3,"^dcomp1_39$","1","",0,c2
-r491,3,"^dcomp1_38$","1","",0,c2
-r492,3,"^dcomp1_33$","1","",0,c2
-r493,3,"^dcomp1_36$","1","",0,c2
-r494,3,"^dcomp1_34$","1","",0,c2
-r495,3,"^dcomp1_35$","1","",0,c2
-r496,3,"^dcomp1_37$","1","",0,c2
-r498,3,"^dcomp1_18$","1","",0,c2
 r459,0,"^TimeSpent$","20","",0,c11
 r460,0,"^consulttime$","5","",0,c11
 r461,0,"^CPT 1$","99213","",0,c11
@@ -314,6 +272,49 @@ r661,0,"^rxnumtoday$","1","",0,c16
 r662,3,"^anal5$","1","",0,c16
 r671,3,"^dcomp1_35$","1","",0,c16
 r672,3,"^dcomp1_38$","1","",0,c16
+r119,0,"^TimeSpent$","20","",0,c2
+r120,0,"^consulttime$","5","",0,c2
+r121,0,"^Chief complaint$","Wellness Visit","",0,c2
+r122,0,"^CPT 1$","","",0,c2
+r123,0,"^History of Present Illness \(HPI\)$","see below","",1,c2
+r124,0,"^Medications prescribed at this visit$","see below","",1,c2
+r125,0,"^When to RTC\.  \(Part of Plan\)$","see below","",1,c2
+r126,3,"^social11$","1","",0,c2
+r127,3,"^social16$","1","",0,c2
+r128,3,"^social3$","1","",0,c2
+r129,3,"^social8$","1","",0,c2
+r130,3,"^social21$","1","",0,c2
+r131,3,"^social17$","1","",0,c2
+r132,3,"^social4$","1","",0,c2
+r133,3,"^social2$","1","",0,c2
+r486,3,"^social6$","1","",0,c2
+r487,3,"^social12$","1","",0,c2
+r144,2,"^Type of decision making$","""1""","",0,c2
+r145,2,"^Type of H and P$","""3""","",0,c2
+r146,2,"^Patient's primary language$","""8""","",0,c2
+r147,2,"^Type of clinical setting$","""7""","",0,c2
+r234,2,"^Referral$","""9""","",0,c2
+r235,2,"^Student participation$","""4""","",0,c2
+r236,2,"^Reason for visit$","""2""","",0,c2
+r237,2,"^Encounter number$","""1""","",0,c2
+r272,3,"^Rural Visit$","1","",0,c2
+r273,3,"^Underserved Area$","1","",0,c2
+r275,0,"^Clinical Notes$","***Annotated Note***
+HPI:
+RTC: In one year for next wellness visit 
+Meds: none","",0,c2
+r424,3,"^dcomp1_42$","1","",0,c2
+r488,3,"^dcomp1_32$","1","",0,c2
+r489,3,"^dcomp1_31$","1","",0,c2
+r490,3,"^dcomp1_39$","1","",0,c2
+r491,3,"^dcomp1_38$","1","",0,c2
+r492,3,"^dcomp1_33$","1","",0,c2
+r493,3,"^dcomp1_36$","1","",0,c2
+r494,3,"^dcomp1_34$","1","",0,c2
+r495,3,"^dcomp1_35$","1","",0,c2
+r496,3,"^dcomp1_37$","1","",0,c2
+r498,3,"^dcomp1_18$","1","",0,c2
+r673,0,"^icd1$","Z00","",0,c2
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
